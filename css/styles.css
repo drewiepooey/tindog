@@ -1,0 +1,301 @@
+/* Elements */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+/* Color Scheme */
+
+.white-section {
+  background-color: white;
+}
+
+.colored-section {
+  background-color: #ff4c68;
+  color: white;
+}
+
+#testimonials,
+#press {
+  background-color: #ef8172;
+}
+
+/* Big Containers */
+
+.title-container {
+  padding: 1.1875rem 15rem 8.325rem 15rem;
+  text-align: left;
+  overflow: hidden;
+}
+
+.standard-container {
+  padding: 8rem 12rem;
+}
+
+.testimonials-container {
+  padding: 5rem 0 3rem 0;
+}
+
+.pricing-container {
+  max-width: 75rem;
+}
+
+/* Headings */
+
+.main-heading {
+  font-weight: 800;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  max-width: 20ch;
+}
+
+.features-heading {
+  font-size: 1.5rem;
+  font-weight: 800;
+  margin: 1rem auto 0.75rem;
+}
+
+.pricing-heading {
+  margin: 5rem auto 4rem;
+  font-weight: 600;
+  font-size: 3rem;
+  letter-spacing: 0.1rem;
+}
+
+/* Navbar */
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.75rem;
+  font-weight: 600;
+}
+
+.navbar {
+  padding: 1rem 0.5rem 1rem 0;
+}
+
+.nav-link {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.35rem;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+  opacity: 0.65;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-nav .nav-link:focus {
+  color: white;
+  opacity: 0.9;
+}
+
+/* Buttons */
+
+.btn {
+  padding: 0.4rem 1.15rem;
+  margin: auto 1rem auto 0;
+  font-weight: 600;
+}
+
+.footer-buttons {
+  font-size: 1.5rem;
+  margin: auto 2rem;
+  padding: 0.6rem 1.75rem;
+}
+
+.top-buttons {
+  margin: 1rem;
+}
+
+/* Title Section */
+
+.title-left {
+  margin-top: 10rem;
+}
+
+.top-buttons-container {
+  margin-top: 7rem;
+}
+
+.tindog-image-container {
+  position: relative;
+  top: 5rem;
+}
+
+.tindog-image {
+  position: absolute;
+  left: 11rem;
+  transform: rotate(25deg);
+}
+
+.title-columns {
+  max-height: 45rem;
+}
+
+/* Features Section */
+
+.features-icons {
+  color: #ef8172;
+  font-size: 5rem;
+}
+
+.features-icons:hover {
+  color: #ff4c68;
+}
+
+.features-text {
+  color: #8f8f8f;
+  font-weight: 600;
+  letter-spacing: 0.05rem;
+  max-width: 25ch;
+  line-height: 1.5;
+}
+
+.features-columns {
+  margin: 2rem auto;
+}
+
+/* Testimonials & Press Section */
+
+.testimonial-image {
+  width: 6rem;
+  border-radius: 100%;
+}
+
+.testimonial-text {
+  font-weight: 600;
+  font-size: 2.5rem;
+  max-width: 30ch;
+  margin-bottom: 2.5rem;
+  line-height: 1.5;
+}
+
+.testimonial-who {
+  font-weight: 600;
+  color: #2c2726;
+  letter-spacing: 0.05rem;
+}
+
+#press {
+  padding-bottom: 2rem;
+}
+
+.logo {
+  max-width: 15rem;
+  margin: 3rem;
+}
+
+/* Pricing Section */
+
+#pricing {
+  font-weight: 600;
+  color: #484848;
+  margin-bottom: 8rem;
+}
+
+.pricing-paragraph {
+  color: #7c7b7b;
+  margin-bottom: 3rem;
+}
+
+.card-deck .card {
+  min-width: 18rem;
+}
+
+.pricing-card-title {
+  font-weight: 800;
+  letter-spacing: 0.05rem;
+}
+
+.pricing-price {
+  font-weight: 600;
+}
+
+.pricing-text {
+  margin-top: 2rem;
+}
+
+.labrador {
+  color: #ef8172;
+}
+
+.mastiff {
+  color: #ff4c68;
+}
+
+/* CTA & Footer Section */
+
+.cta-header {
+  font-weight: 800;
+  font-size: 3.75rem;
+  max-width: 27ch;
+  line-height: 1.5;
+  margin: 0 auto 5rem auto;
+  position: relative;
+  bottom: 2rem;
+}
+
+#footer {
+  padding: 8rem 8rem 4rem;
+}
+
+#footer p {
+  color: #adadad;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.social {
+  font-size: 1.5rem;
+  margin: auto 1rem 2rem;
+}
+
+/* Media Queries */
+
+@media (max-width: 1300px) {
+  .tindog-image-container {
+    transform: rotate(0);
+  }
+
+  .tindog-image {
+    left: 7rem;
+  }
+}
+
+@media (max-width: 991px) {
+  .tindog-image-container {
+    position: static;
+  }
+
+  .tindog-image {
+    position: static;
+    transform: rotate(0);
+    padding: 7rem 0 0;
+    width: 18rem;
+  }
+
+  @media (max-width: 958px) {
+    .footer-button-first {
+      margin-bottom: 1rem;
+    }
+    .footer-button-second {
+      margin-top: 1rem;
+    }
+  }
+
+  @media (max-width: 547px) {
+    .top-buttons {
+      margin: 2rem 1rem auto 0;
+    }
+  }
+
+  .title-row {
+    text-align: center;
+  }
+}
