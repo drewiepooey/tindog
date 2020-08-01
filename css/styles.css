@@ -16,13 +16,13 @@ body {
 }
 
 .colored-section {
-  background-color: #ff4c68;
+  background: linear-gradient(300deg, #ff7854, #fd267d);
   color: white;
 }
 
 #testimonials,
 #press {
-  background-color: #ef8172;
+  background: #ff6160;
 }
 
 /* Big Containers */
@@ -141,12 +141,12 @@ body {
 /* Features Section */
 
 .features-icons {
-  color: #ef8172;
+  color: #ff6e5e;
   font-size: 5rem;
 }
 
 .features-icons:hover {
-  color: #ff4c68;
+  color: #fd267d;
 }
 
 .features-text {
