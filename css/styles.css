@@ -22,7 +22,7 @@ body {
 
 #testimonials,
 #press {
-  background: #ff6160;
+  background: #eb6767;
 }
 
 /* Big Containers */
@@ -110,7 +110,7 @@ body {
 }
 
 .top-buttons {
-  margin: 1rem;
+  margin: 1rem 1rem 1rem 0;
 }
 
 /* Title Section */
