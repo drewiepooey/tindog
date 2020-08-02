@@ -41,8 +41,8 @@ body {
   padding: 5rem 0 3rem 0;
 }
 
-.pricing-container {
-  max-width: 75rem;
+.container {
+  max-width: 80rem;
 }
 
 /* Headings */
@@ -205,7 +205,6 @@ body {
 }
 
 .card-deck .card {
-  min-width: 18rem;
 }
 
 .pricing-card-title {
