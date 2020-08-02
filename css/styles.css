@@ -141,12 +141,12 @@ body {
 /* Features Section */
 
 .features-icons {
-  color: #ff6e5e;
+  color: #ff7058;
   font-size: 5rem;
 }
 
 .features-icons:hover {
-  color: #fd267d;
+  color: #fd4070;
 }
 
 .features-text {
@@ -178,7 +178,7 @@ body {
 
 .testimonial-who {
   font-weight: 600;
-  color: #2c2726;
+  color: #e5e5e5;
   letter-spacing: 0.05rem;
 }
 
