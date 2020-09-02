@@ -141,8 +141,8 @@ body {
 /* Features Section */
 
 .features-icons {
-  color: #ff7058;
   font-size: 5rem;
+  color: #ff7058;
 }
 
 .features-icons:hover {
@@ -192,6 +192,23 @@ body {
 }
 
 /* Pricing Section */
+
+.wrapper-pricing {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.wrapper-pricing-item-1 {
+}
+
+.wrapper-pricing-item-2 {
+  flex: inital;
+}
+
+.wrapper-pricing-item-3 {
+  flex: inital;
+}
 
 #pricing {
   font-weight: 600;
